@@ -1,5 +1,5 @@
 ---
-title: foo
+title: Foo
 ---
 
-Looks like you found my "foo" page. You're very clever. Now go away.  
+Looks like you found my foo route! :)
