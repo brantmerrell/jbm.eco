@@ -25,20 +25,16 @@ body {
 }
 </style>
 
-I have been relying on Ascii chess to study. I built the following application to help me (also available at [https://brantmerrell.shinyapps.io/my-chess/](https://brantmerrell.shinyapps.io/my-chess/)):  
+Ascii chess can help understand PGN (portable game notation) and FEN (Forsyth-Edwards Notation), and can assist in developing the mental imagery for blindfold chess, memory of positions and games, and positional lookahead. This page serves as an introductory manual for the Ascii application displayed below, also accessible at [https://brantmerrell.shinyapps.io/my-chess/](https://brantmerrell.shinyapps.io/my-chess/)):  
 
-<iframe src="https://brantmerrell.shinyapps.io/my-chess/" style="width:50em; height:900px; border:none;"></iframe>
-
-# Reasoning
-
-I want to develop my own mental visuals to describe the game's history, current position, and possible futures. The regular board with colored squares and shaped pieces is distracting to this goal. 
+<iframe src="https://brantmerrell.shinyapps.io/my-chess/" style="width:50em; height:700px; border:none;"></iframe>
 
 # Basic Usage
 
 ## Submit/Undo Moves
 Below the Ascii View is a dropdown and an input box for submitting moves. The Undo button undoes the last move. The Submit Move button submits the contents of the input box. The input box can be manually edited or populated from the dropdown box.  
 
-The dropdown box might be helpful in cases where, for example, two black knights are located on b8 and f6 and can move to d7. In this case, the proper notation for moving knight to d7 is Nbd7 or Nfd7 rather than simply Nd7. In such case, guessing the correct input can be frustrating.  
+The dropdown box might be helpful in cases where, for example, two black knights are located on b8 and f6 and can move to d7. In this case, the proper notation for moving knight to d7 is Nbd7 or Nfd7 rather than simply Nd7. In such cases, guessing the correct input can be frustrating.  
 
 ## Reading the Move History
 
@@ -131,6 +127,6 @@ In this application, the FEN string defaults to the standard chess setup:
 rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
 ```
 
-Left as-is, the **Submit FEN** button can serve as a *reset* for the Ascii board. FEN strings corresponding to tactical puzzles can also be used. The chess.com daily puzzle for December 2, 2023 is `8/8/5K1k/2P4R/3r2B1/pp6/8/8 b - - 0 3` (see [link](https://www.chess.com/daily-chess-puzzle/2023-12-02 )). 
+Left as-is, the **Submit FEN** button can serve as a *reset* for the Ascii board. FEN strings corresponding to tactical puzzles can also be used. 
 
 

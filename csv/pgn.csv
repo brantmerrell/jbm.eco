@@ -1,0 +1,5 @@
+notation,piece,destination,,fullmove,color,origin,other
+e4,pawn,e4,,1,white,e2,en passant=e3
+e5,pawn,e5,,1,black,e7,en passant=e6
+Bd3,bishop,d3,,2,white,f1
+Nh6,knight,h6,,2,black,h7

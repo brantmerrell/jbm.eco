@@ -3,27 +3,22 @@ title: Welcome to my site!
 ---
 <style>
 body {
-    width: 20em;
+    width: 30em;
     margin: 0 auto;
     font-family: inherit; /* Use the default font-family */
     padding: 20px; /* Add padding */
 }
-.iframe-wrapper {
-    padding: 0px;
-    width: 100%;
-    margin: 0 auto;
-}
-.iframe-wrapper iframe {
-    width: 100%;
-    height: 500px;
-}
 </style>
 
-I'm really excited about software, statistics, bicycles, chess, and the rewarding journey of parenthood which I am experiencing alongside my wonderful wife.  
+I'm building apps to study chess in ways that help me think through topics other than chess.  
 
-I'm building this to study chess in ways that help me think through topics other than chess. I am my main test subject, but I appreciate company.  
+One that I have deployed (though am still developing) is [Ascii Chess](http://jbm.eco/ascii-chess). Some features on the way are,  
 
-I'll link my content here as it becomes available.  
+ - **The Bishop's Triangle**: the linear equations and triangles associated with diagonal-moving pieces
+ - **Checkmate Pie**: a visualization of the King's options as a pie(ish) chart
+ - **Piece-Agnostic Pneumonics**: The construction of shapes on the board to remember the position of pieces
+ - **Tactics as Pneumonics**: The use of tactical explorations as memory devices rather than to (directly) discover best moves
+ - **Platform Integration** with chess.com and lichess.org 
 
 *Thanks for visiting!*  
 
