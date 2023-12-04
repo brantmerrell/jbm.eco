@@ -12,4 +12,3 @@ I'll link my content here as it becomes available.
 
    ‐ Josh M.  
 
-![](foo.png)

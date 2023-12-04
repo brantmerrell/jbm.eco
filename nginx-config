@@ -51,6 +51,10 @@ server {
 		try_files $uri $uri/ =404;
 	}
 
+    location /foo/ {
+        try_files $uri $uri/ foo.html;
+    }
+
 	# pass PHP scripts to FastCGI server
 	#
 	#location ~ \.php$ {
