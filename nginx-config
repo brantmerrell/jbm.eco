@@ -28,7 +28,7 @@ http {
         listen 80 default_server;
         listen [::]:80 default_server;
 
-        root /Users/joshuamerrell/github/brantmerrell/jbm.eco/html;
+        root /var/www/html;
 
         index index.html index.htm index.nginx-debian.html;
 
@@ -36,6 +36,14 @@ http {
 
         location / {
             try_files $uri $uri/ =404;
+        }
+
+        location /readme {
+            try_files $uri $uri/ /readme.html;
+        }
+
+        location /phase1 {
+            try_files $uri $uri/ /phase1.html;
         }
 
         location /foo/bar {
@@ -46,24 +54,8 @@ http {
             try_files $uri $uri/ /ascii-chess.html;
         }
 
-        location /about {
-            try_files $uri $uri/ /about.html;
-        }
-
-        location /blog {
-            try_files $uri $uri/ /blog.html;
-        }
-
-        location /apps/ascii-chess {
-            try_files $uri $uri/ /ascii-chess.html;
-        }
-
         location /ascii-chess {
             try_files $uri $uri/ /ascii-chess.html;
-        }
-
-        location /apps {
-            try_files $uri $uri/ /apps.html;
         }
     }
 }
