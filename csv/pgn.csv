@@ -1,5 +1,5 @@
-notation,piece,destination,,fullmove,color,origin,other
-e4,pawn,e4,,1,white,e2,en passant=e3
-e5,pawn,e5,,1,black,e7,en passant=e6
-Bd3,bishop,d3,,2,white,f1
-Nh6,knight,h6,,2,black,h7
+notation,piece,destination,,fullmove,color,origin,other,,SAN seq,SAN ply,Verbose
+e4,pawn,e4,,1,white,e2,en passant=e3,,1. e4 e5,1.e4,Pe2-e4
+e5,pawn,e5,,1,black,e7,en passant=e6,,1. e4 e5,1...e5,Pe7-e5
+Bd3,bishop,d3,,2,white,f1,,,2. Bd3 Nh6,2.Bd3,Bf1-d3
+Nh6,knight,h6,,2,black,h7,,,2. Bd3 Nh6,2...Nh6,Ng7-h6

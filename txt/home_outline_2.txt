@@ -1,0 +1,17 @@
+Site Outline
+ ├──About
+ ├──Blog
+ │   ├──Software Design
+ │   ├──CS Algorithms
+ │   ├──Pneumonic Pyramid
+ │   ├──Queues for Cognition
+ │   ├──Limits: What Metaphor Can't Do
+ │   ├──Money and Impact
+ │   ├──Inaction and Action
+ │   ├──Bulk and Biodiversity
+ │   ├──Scaling Cities
+ │   └──Statistics and Chess
+ └──Apps
+     └──Ascii Chess
+
+

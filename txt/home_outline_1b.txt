@@ -1,0 +1,15 @@
+route
+  about
+  blog
+    sft-des
+    csc-alg
+    pnm-pyr
+    quu-cog
+    met-lmt
+    mon-ipc
+    inc-act
+    blk-bio
+    sca-cit
+    stt-chs
+  apps
+    ascii-chess

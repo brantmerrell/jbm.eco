@@ -9,6 +9,25 @@ body {
     padding: 20px; /* Add padding */
 }
 </style>
+```txt
+┌──────────────────────────────────────┬───────────────────┐
+│Site Outline                          │route              │
+│ ├──About                             │ ├──about          │
+│ ├──Blog                              │ ├──blog           │
+│ │   ├──Software Design               │ │   ├──sft-des    │
+│ │   ├──CS Algorithms                 │ │   ├──csc-alg    │
+│ │   ├──Pneumonic Pyramid             │ │   ├──pnm-pyr    │
+│ │   ├──Queues for Cognition          │ │   ├──quu-cog    │
+│ │   ├──Limits: What Metaphor Can't Do│ │   ├──met-lmt    │
+│ │   ├──Money and Impact              │ │   ├──mon-ipc    │
+│ │   ├──Inaction and Action           │ │   ├──inc-act    │
+│ │   ├──Bulk and Biodiversity         │ │   ├──blk-bio    │
+│ │   ├──Scaling Cities                │ │   ├──sca-cit    │
+│ │   └──Statistics and Chess          │ │   └──stt-chs    │
+│ └──Apps                              │ └──apps           │
+│     └──Ascii Chess                   │     └──ascii-chess│
+└──────────────────────────────────────┴───────────────────┘
+```
 
 ## Ascii Chess
 

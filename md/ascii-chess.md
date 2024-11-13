@@ -45,28 +45,28 @@ The move history is a form of PGN (portable game notation), though PGN is not as
 The notation specifies the piece names (or lack thereof for pawns) and their destinations, and leaves the move numbers, colors, origin squares, and other details to be infered as follows:  
 
 ```text
-┌───────────────────────────┬┬───────────────────────────────────┐
-│written                    ││                           inferred│
-├────────┬──────┬───────────┼┼────────┬─────┬──────┬─────────────┤
-│notation│piece │destination││fullmove│color│origin│other        │
-├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┤
-│e4      │pawn  │e4         ││1       │white│e2    │en passant=e3│
-├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┤
-│e5      │pawn  │e5         ││1       │black│e7    │en passant=e6│
-├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┤
-│Bd3     │bishop│d3         ││2       │white│f1    │             │
-├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┤
-│Nh6     │knight│h6         ││2       │black│h7    │             │
-└────────┴──────┴───────────┴┴────────┴─────┴──────┴─────────────┘
+┌───────────────────────────┬┬───────────────────────────────────┬┬─────────────────────────┐
+│written                    ││              inferred             ││     alternative notation│
+├────────┬──────┬───────────┼┼────────┬─────┬──────┬─────────────┼┼─────────┬───────┬───────┤
+│notation│piece │destination││fullmove│color│origin│other        ││SAN seq  │SAN ply│Verbose│
+├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┼┼─────────┼───────┼───────┤
+│e4      │pawn  │e4         ││1       │white│e2    │en passant=e3││1.e4 e5  │1.e4   │Pe2-e4 │
+├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┼┼─────────┼───────┼───────┤
+│e5      │pawn  │e5         ││1       │black│e7    │en passant=e6││1.e4 e5  │1...e5 │Pe7-e5 │
+├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┼┼─────────┼───────┼───────┤
+│Bd3     │bishop│d3         ││2       │white│f1    │             ││2.Bd3 Nh6│2.Bd3  │Bf1-d3 │
+├────────┼──────┼───────────┼┼────────┼─────┼──────┼─────────────┼┼─────────┼───────┼───────┤
+│Nh6     │knight│h6         ││2       │black│h7    │             ││2.Bd3 Nh6│2...Nh6│Ng7-h6 │
+└────────┴──────┴───────────┴┴────────┴─────┴──────┴─────────────┴┴─────────┴───────┴───────┘
 ```
 
-Some other notations for displaying this same history are:  
+Note how the alternative notations distinguish between white and black:
 
- - `1.e4 e5 2. Bd3 Nh6` - used by chess.com and lichess
- - `1.e4 1...e5 2.Bd3 2...Nh6` - good for discussions that must specify half-moves and color
- - `1.Pe2-e4 Pe7-e5 2.Bf1-d3 Ng7-h6` - I saw this on a phone application once
+* SAN seq relies on relative position to the fullmove (Number. White Black)
+* SAN ply relies on dots ("." for white, "..." for black)
+* Verbose relies on origin move and board state to distinguish white from black.
 
-The correct notation to use is context-dependent. The least verbose option currently fits my purposes for Ascii Chess.  
+The correct notation to use depends on the context. The least verbose option is often preferred, as it is more concise and easy to read.
 
 ## Ascii board
 

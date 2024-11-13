@@ -1,0 +1,18 @@
+┌──┬──────────────────────────────────────┐
+│1 │Site Outline                          │
+│2 │ ├──About                             │
+│3 │ ├──Blog                              │
+│4 │ │   ├──Software Design               │
+│5 │ │   ├──CS Algorithms                 │
+│6 │ │   ├──Pneumonic Pyramid             │
+│7 │ │   ├──Queues for Cognition          │
+│8 │ │   ├──Limits: What Metaphor Can't Do│
+│9 │ │   ├──Money and Impact              │
+│10│ │   ├──Inaction and Action           │
+│11│ │   ├──Bulk and Biodiversity         │
+│12│ │   ├──Scaling Cities                │
+│13│ │   └──Statistics and Chess          │
+│14│ └──Apps                              │
+│15│     └──Ascii Chess                   │
+└──┴──────────────────────────────────────┘
+
