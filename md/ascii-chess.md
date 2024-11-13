@@ -25,9 +25,9 @@ body {
 }
 </style>
 
-Ascii chess can help understand PGN (portable game notation) and FEN (Forsyth-Edwards Notation), and can assist in developing the mental imagery for blindfold chess, memory of positions and games, and positional lookahead. This page serves as an introductory manual for the Ascii application displayed below, also accessible at [https://brantmerrell.shinyapps.io/my-chess/](https://brantmerrell.shinyapps.io/my-chess/)):  
+Ascii chess can help understand PGN (portable game notation) and FEN (Forsyth-Edwards Notation), and can assist in developing the mental imagery for blindfold chess, memory of positions and games, and positional lookahead. This page serves as an introductory manual for the Ascii application displayed below, also accessible at [https://josh-b-merrell.shinyapps.io/my-chess/](https://josh-b-merrell.shinyapps.io/my-chess/)):  
 
-<iframe src="https://brantmerrell.shinyapps.io/my-chess/" style="width:50em; height:700px; border:none;"></iframe>
+<iframe src="https://josh-b-merrell.shinyapps.io/my-chess/" style="width:50em; height:700px; border:none;"></iframe>
 
 # Basic Usage
 
@@ -36,7 +36,7 @@ Below the Ascii View is a dropdown and an input box for submitting moves. The Un
 
 The dropdown box might be helpful in cases where, for example, two black knights are located on b8 and f6 and can move to d7. In this case, the proper notation for moving knight to d7 is Nbd7 or Nfd7 rather than simply Nd7. In such cases, guessing the correct input can be frustrating.  
 
-## Reading the Move History
+## Move History
 
 The move history is a form of PGN (portable game notation), though PGN is not as standardized as FEN (see list of other notation examples below). Unlike FEN, PGN capitalizes pieces of both colors to distinguish from files/columns of squares (if no piece is specified, it is a pawn). For the history,  
 
@@ -68,7 +68,7 @@ Some other notations for displaying this same history are:
 
 The correct notation to use is context-dependent. The least verbose option currently fits my purposes for Ascii Chess.  
 
-## Reading the Ascii board
+## Ascii board
 
 The Ascii board shows white pieces as capitalized and black pieces as lowercase.  
 
@@ -90,7 +90,7 @@ The Ascii board shows white pieces as capitalized and black pieces as lowercase.
 └──────┴─────┴─────┘
 ```
 
-## Reading the FEN string
+## FEN string
 FEN stands for Forsyth-Edwards Notation, and [its Wikipedia page](https://en.wikipedia.org/wiki/Forsyth–Edwards_Notation) is highly informative. The FEN consists of 6 fields separated by spaces. The first field is separated into 8 subfields separated by forward-slashes, depicting ranks.  
 
 ```text
@@ -104,7 +104,7 @@ FEN stands for Forsyth-Edwards Notation, and [its Wikipedia page](https://en.wik
 These fields can be labelled:  
 
  1. Piece Placement
-     - letters for pieces (see table under *Reading the Ascii Board*)
+     - letters for pieces (see table under *Ascii Board*)
      - numbers for empty squares
      - from rank to rank, `left-to-right ~ 8-to-1`
      - within a rank, `left-to-right ~ a-to-h`
@@ -118,15 +118,5 @@ These fields can be labelled:
  4. En Passant target square (`-` if none)
  5. Halfmove Clock for (fifty-move rule)[https://en.wikipedia.org/wiki/Fifty-move_rule]
  6. Fullmove number - the number of full moves starting at 1 and incrementing after Black's moves.
-
-
-## Manipulating the FEN string
-
-In this application, the FEN string defaults to the standard chess setup:  
-```
-rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1
-```
-
-Left as-is, the **Submit FEN** button can serve as a *reset* for the Ascii board. FEN strings corresponding to tactical puzzles can also be used. 
 
 

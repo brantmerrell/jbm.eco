@@ -1,4 +1,4 @@
-cd /home/ubuntu/jbm.eco/
+cd /home/ubuntu/github/brantmerrell/jbm.eco/
 
 #d2 ../foo.d2 foo.png --layout=elk --theme=104
 

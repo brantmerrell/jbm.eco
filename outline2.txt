@@ -1,0 +1,11 @@
+home (here)
+ └──ascii chess
+     ├──app
+     ├──usage
+     │   ├──dot views
+     │   ├──diagonal views
+     │   └──FEN views
+     └──software
+         ├──prototypes by software language
+         ├──design considerations
+         └──architectural considerations

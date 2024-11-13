@@ -1,5 +1,5 @@
 ---
-title: Welcome to my site!
+title: Josh Merrell
 ---
 <style>
 body {
@@ -10,18 +10,48 @@ body {
 }
 </style>
 
-I'm building apps to study chess in ways that help me think through topics other than chess.  
+## Ascii Chess
 
-One that I have deployed (though am still developing) is [Ascii Chess](http://jbm.eco/ascii-chess). Some features on the way are,  
+This project explores data visualization capabilities and assesses data values.
 
- - **The Bishop's Triangle**: the linear equations and triangles associated with diagonal-moving pieces
- - **Checkmate Pie**: a visualization of the King's options as a pie(ish) chart
- - **Piece-Agnostic Pneumonics**: The construction of shapes on the board to remember the position of pieces
- - **Tactics as Pneumonics**: The use of tactical explorations as memory devices rather than to (directly) discover best moves
- - **Platform Integration** with chess.com and lichess.org 
+The web app at [chess.jbm.eco](https://chess.jbm.eco) supports the following helper visuals:  
 
-*Thanks for visiting!*  
+* **Graph View**: a network graph depiction of the chessboard
+* **Arc View**: an arc depiction of FEN strings
+* **Chord View**: A chord depiction of board connections (threats & protections)
+* **History Table**: A comparison of algebraic, universal, and Forsyth-Edwards notations
+* **FEN Character Count**: A depiction of how metrics can be compared across move sequences
 
+The prototype at [josh-b-merrell.shinyapps.io/my-chess/](https://josh-b-merrell.shinyapps.io/my-chess/) also supports:
 
-   ‐ Josh M.  
+* **FEN Description**: A breakdown of FEN strings
+* **FEN Map**: A 2-dimensional rendering of FEN strings
+
+AWS currently routes the client-side app to a backend API which will soon be made avaiable at connector.jbm.eco.
+
+## Services
+
+I provide the following professional services:
+
+* Web Development
+    + Client-Side
+        + JavaScript / TypeScript
+            + React
+            + Angular
+            + d3.js
+    + Server-Side
+        + python
+            + FastAPI
+            + DJango
+            + Flask
+        + ruby
+        + C#
+* Cloud Development
+    + AWS
+    + Google Cloud
+    + Azure
+* Data
+    + SQL & Database Management
+    + Pipelines & Storage
+    + Visualization & Presentation
 
