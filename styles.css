@@ -44,10 +44,26 @@ h2 {
     color: #0a192f;
 }
 
+.project-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+}
+
+@media (min-width: 768px) {
+    .project-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .project {
     background: #f4f4f4;
     padding: 20px;
     border-radius: 8px;
+}
+
+.project h3 {
+    margin-top: 0;
 }
 
 .project a {

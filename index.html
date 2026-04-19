@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Joshua Merrell - Developer exploring innovative data visualization and full-stack solutions">
-    <title>Joshua Merrell | Developer & Data Visualization Explorer</title>
+    <meta name="description" content="Joshua Merrell - Developer building tools that make complex systems navigable">
+    <title>Joshua Merrell</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-
-    <!-- Open Graph tags (MOVED into <head>) -->
-    <meta property="og:title" content="Joshua Merrell | Developer & Data Visualization Explorer">
-    <meta property="og:description" content="Building innovative visualizations and exploring new ways to represent complex data through code.">
+    <meta property="og:title" content="Joshua Merrell">
+    <meta property="og:description" content="Building tools that make complex systems navigable — through visualization, diagrams, and structured learning.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://jbm.eco/">
-    <meta property="og:image" content="https://jbm.eco/your-thumbnail.jpg"> <!-- optional -->
 </head>
 <body>
     <header class="hero">
@@ -25,39 +22,33 @@
     <section class="about">
         <h2>About</h2>
         <p>
-            I build things that make complex data accessible. Currently deep-diving into innovative visualization techniques through my chess project—transforming traditional board positions into D3 graphs that reveal tactical patterns like discovered attacks and checkmate sequences.
-        </p>
-        <p>
-            This work challenges the limitations of conventional data visualization, exploring how we can better represent multidimensional relationships. The lessons learned here apply beyond chess—from traffic flow analysis to system architecture mapping.
+            I build tools that make complex systems easier to navigate. Each project below is a working experiment in how structured visualization and mental frameworks reduce the gap between novice and expert — the same thinking that helps you read a chess position applies to reading a codebase or a sentence in an unfamiliar language.
         </p>
     </section>
 
     <section class="projects">
-        <h2>Current Focus</h2>
-        <div class="project">
-            <h3>Chess Data Visualization Lab</h3>
-            <p>An experimental platform pushing the boundaries of chess visualization. Building iterative display methods that transform positions into D3 graphs, revealing tactical concepts through novel representations. Each visualization serves as a testbed for broader data visualization challenges—some succeed brilliantly at isolating specific patterns, while others deliberately expose the limits of what visualization can meaningfully convey.</p>
-            <a href="https://chess.jbm.eco" target="_blank" rel="noopener noreferrer">Visit Project</a> |
-            <a href="https://github.com/brantmerrell/my-chess" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-        </div>
-        <div class="video-grid">
-            <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/wgSvLFKa_2I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/ysjWhLip-7U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-            <div class="video-wrapper">
-                <iframe src="https://www.youtube.com/embed/T4Ewryu60FI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
+        <h2>Projects</h2>
+        <div class="project-grid">
 
-    <section class="services">
-        <h2>Technical Interests</h2>
-        <p>
-            Exploring the intersection of data visualization, graph theory, and practical software engineering. Always interested in discussing innovative approaches to representing complex systems and collaborating on challenging visualization problems.
-        </p>
+            <div class="project">
+                <h3><a href="https://chess.jbm.eco" target="_blank" rel="noopener noreferrer">chess.jbm.eco</a></h3>
+                <p>A visualization lab for chess positions. Board positions become D3 graphs that surface tactical patterns — discovered attacks, checkmate sequences, piece relationships. Three sections in progress: board visualization algorithms, a FEN/blindfold training tool, and a tactical statistics analyzer. 3D rendering via Three.js/Blender is in development.</p>
+                <a href="https://github.com/brantmerrell/my-chess" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://diagrams.jbm.eco" target="_blank" rel="noopener noreferrer">diagrams.jbm.eco</a></h3>
+                <p>Code and system architecture rendered in D2 — data pipelines, system design, and algorithmic logic made visual. The goal is to close the gap between written code and the mental models engineers use to reason about it, with an eye toward making that reasoning legible to non-engineers as well.</p>
+                <a href="https://github.com/brantmerrell/diagrams" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+
+            <div class="project">
+                <h3><a href="https://hi.jbm.eco" target="_blank" rel="noopener noreferrer">hi.jbm.eco</a></h3>
+                <p>A language learning tool built around sentence-by-sentence translation rather than word-by-word. Currently Hindi. The approach treats language acquisition as a structured parsing problem — understanding how a sentence holds together before drilling individual vocabulary. The same pattern should generalize to other languages.</p>
+                <a href="https://github.com/brantmerrell/hi" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+
+        </div>
     </section>
 
     <footer id="contact">
